@@ -1,0 +1,15 @@
+{
+    "name": "mumtahina/calculator",
+    "description": "simple search bar calculator",
+    "autoload": {
+        "psr-4": {
+            "Mumtahina\\Calculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "y"
+        }
+    ],
+    "require": {}
+}

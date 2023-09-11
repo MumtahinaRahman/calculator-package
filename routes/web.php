@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('calculator', function() {
+    echo 'hello from the other siiiiiiide!!!!';
+});
+
+Route::get('add/{a}/{b}', 'Mumtahina\Calculator\CalculatorController@add');
+Route::get('subtract/{a}/{b}', 'Mumtahina\Calculator\CalculatorController@subtract');
+
+?>
