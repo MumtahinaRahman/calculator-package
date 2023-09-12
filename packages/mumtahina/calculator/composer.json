@@ -1,5 +1,6 @@
 {
     "name": "mumtahina/calculator",
+    "version": "1.0.0",
     "description": "simple search bar calculator",
     "autoload": {
         "psr-4": {
